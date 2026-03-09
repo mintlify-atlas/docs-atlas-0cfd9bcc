@@ -1,0 +1,118 @@
+{
+  "projectType": "framework",
+  "projectName": "React Native Template",
+  "projectDescription": "Production-ready React Native boilerplate with TypeScript, navigation, state management, monitoring, and CI/CD pipelines.",
+  "theme": "aspen",
+  "primaryColor": "#61DAFB",
+  "lightColor": "#80E5FF",
+  "darkColor": "#1FA7D4",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "setup"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "concepts/architecture",
+              "concepts/navigation",
+              "concepts/state-management",
+              "concepts/services"
+            ]
+          },
+          {
+            "group": "Guides",
+            "pages": [
+              "guides/forms",
+              "guides/api-integration",
+              "guides/adding-features",
+              "guides/customization",
+              "guides/internationalization"
+            ]
+          },
+          {
+            "group": "Components",
+            "pages": [
+              "components/overview",
+              "components/ui-components",
+              "components/form-components"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Development",
+        "groups": [
+          {
+            "group": "Configuration",
+            "pages": [
+              "development/environment",
+              "development/project-naming"
+            ]
+          },
+          {
+            "group": "Testing & Quality",
+            "pages": [
+              "development/testing",
+              "development/ci"
+            ]
+          },
+          {
+            "group": "Deployment",
+            "pages": [
+              "development/cd",
+              "development/automation",
+              "development/release-process"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Reference",
+        "groups": [
+          {
+            "group": "Project Reference",
+            "pages": [
+              "reference/structure",
+              "reference/scripts",
+              "reference/troubleshooting"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "TypeScript-first React Native setup with strict type checking",
+    "React Navigation with typed routes and multi-stack architecture",
+    "Context-based state management (Auth, Account, Task)",
+    "Formik + Yup form handling with validation",
+    "Datadog monitoring and error tracking integration",
+    "i18next internationalization support",
+    "CI/CD pipelines with SonarQube quality gates",
+    "Fastlane automation for iOS and Android deployments",
+    "Native Base UI component library integration",
+    "Docker support for containerized development"
+  ],
+  "publicApiSurface": [
+    "AuthContextProvider - Authentication state management",
+    "AccountContextProvider - User account state management",
+    "TaskContextProvider - Task state management",
+    "api-service - HTTP client with Axios",
+    "auth.service - Authentication API calls",
+    "account.service - Account management API calls",
+    "task.service - Task management API calls",
+    "Logger - Logging utility with Datadog integration",
+    "ApplicationNavigator - Main navigation container",
+    "ErrorFallback - Error boundary component",
+    "UI Components - Alert, Avatar, Badge, Button, Card, Checkbox, Form Controls, Inputs, Modal, Radio, Spinner, Tag, Typography"
+  ]
+}
